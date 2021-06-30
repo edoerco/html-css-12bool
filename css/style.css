@@ -12,10 +12,13 @@
     border: 1px solid #056cfa;
 }
 
-.sezione-1 {
+h1 {
+    font-size: 20px;
+}
+
+#sezione-1,
+#sezione-2,
+#sezione-3 {
     margin-bottom: 20px;
 }
 
-.sezione-2 {
-    
-}
