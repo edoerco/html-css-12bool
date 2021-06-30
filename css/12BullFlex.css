@@ -66,9 +66,3 @@
 .debug .row {
     background-color: blue;
 }
-
-.debug .col {
-    background-color: #056cfa;
-    border: 1px solid white;
-    color: white;
-}
