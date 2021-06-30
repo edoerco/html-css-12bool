@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 12 colonne */
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
