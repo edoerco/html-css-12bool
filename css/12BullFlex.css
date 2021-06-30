@@ -5,9 +5,8 @@
 }
 
 .container {
-    width: 1070px;
+    width: 100%;
     max-width: 100%;
-    margin: 0 auto;
 }
 
 .container-fluid {
@@ -18,6 +17,10 @@
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+[class*-"col-"] {
+    flex: 0 0 auto;
 }
 
 /* 12 colonne */
@@ -53,3 +56,19 @@
 .col-offset-10 {margin-left: calc((100% / 12) * 10);}
 .col-offset-11 {margin-left: calc((100% / 12) * 11);}
 .col-offset-12 {margin-left: calc((100% / 12) * 12);}
+
+
+/* debug */
+.debug .container {
+    background-color: red;
+}
+
+.debug .row {
+    background-color: blue;
+}
+
+.debug .col {
+    background-color: #056cfa;
+    border: 1px solid white;
+    color: white;
+}
